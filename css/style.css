@@ -151,3 +151,138 @@ footer p {
     padding-bottom: 2%;
     background: white;
 }
+
+/*----------------
+DEVICES > 600px
+----------------*/
+@media screen and (min-width: 600px) {
+    /* TOP MENU */
+    header ul {
+        position: absolute;
+        top: 8%;
+        text-align: center;
+        background: white;
+    }
+
+    header li, header li a {
+        display: inline-block;
+        background-color: transparent;
+        border-bottom: none;
+        color: #4a525f;
+        padding: 5px;
+    }
+
+    header li {
+        border-right: 1px solid #4a525f;
+    }
+
+    header li:last-child {
+        border-right: none;
+    }
+
+    header li:hover, header li a:hover {
+        background-color: #d8cccc;
+    }
+    /* TOP MENU END */
+
+    header p {
+        bottom: 40%;
+        font-size: 2em;
+    }
+
+    #apply-btn {
+        bottom: 30%;
+    }
+
+    .row1-1 {
+        width: 50%;
+        margin-top: 2%;
+    }
+
+    .row1-1 .buttons {
+        text-align: center;
+    }
+    .row1-1 .buttons a {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #4a525f
+    }
+
+    .row1-2 {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .row1-2 p {
+        max-width: 60%;
+        font-size: 1.2em;
+    }
+
+    .row2 p {
+        font-size: 2em;
+    }
+
+    .sarah, .tom {
+        width: 50%;
+        float: left;
+        padding-bottom: 2%;
+    }
+
+    .row3 {
+        display: flex;
+    }
+
+    .row3-1 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .row3-1 {
+        max-width: 60%;
+    }
+    .row3-1 p {
+        padding: 4%;
+    }
+
+    .row3-2 {
+        flex: 1;
+    }
+
+    /* FOOTER MENU */
+    footer ul {
+        text-align: center;
+        background: #8393ca;
+        margin: 0;
+    }
+
+    footer li, footer li a {
+        display: inline-block;
+        background-color: transparent;
+        border-bottom: none;
+        padding: 5px;
+    }
+
+    footer li {
+        border-right: 1px solid #4a525f;
+    }
+
+    footer li:last-child {
+        border-right: none;
+    }
+
+    footer li:hover, footer li a:hover {
+        background: #3e486a;
+    }
+
+    footer p {
+        padding-top: 2%;
+        background: #e0e0eb;
+        font-size: 1.2em;
+    }
+}
